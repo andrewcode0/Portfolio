@@ -1,35 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-  }
-  #navbar{
+}
+#navbar {
     position: fixed;
     width: 100%;
-    top:0;
+    top: 0;
     text-align: right;
-    background-color: #333;
-    font-family: Tahoma, sans-serif;
+    background-color: rgb(6, 173, 0);
+    font-family: 'Tangerine', sans-serif;
     font-size: 40px;
     color: white;
-    text-decoration: none;
-  }
-  li {
+    
+}
+
+li {
     list-style: none;
-  }
-  #navbar > ul {
-  width: 25vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  float: right;
-  }
-  a {
+}
+
+#navbar>ul {
+    width: 25vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    float: right;
+}
+
+a {
     text-decoration: none;
     color: white;
     font-weight: lighter;
-  }
-  #welcome-section {
+}
+
+#welcome-section {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -37,12 +39,15 @@
     align-items: center;
     height: 100vh;
     background-color: lightgrey;
-  }
-  .text, .psh {
+}
+
+.text,
+.psh {
     text-align: center;
     font-size: 3em;
-  }
-  #projects {
+}
+
+#projects {
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -50,31 +55,44 @@
     align-items: center;
     height: 100vh;
     background-color: green;
-  }
-  .projects-grid {
+}
+
+.projects-grid {
     text-align: center;
     font-size: 3em;
-  }
-  html {
+}
+
+html {
     box-sizing: border-box;
     scroll-behavior: smooth;
-  }
-  .code {
+}
+
+.code {
     color: gray;
-    transition: color 0.3s ease-out;}
-    #Contact{
-      width: 100vw;
+    transition: color 0.3s ease-out;
+}
+
+#Contact {
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: lightgrey;
+}
+
+.contact-section-header {
+    font-size: 3em;
+    text-align: center;
+}
+
+@media (max-width: 480px) {
+    body {
+        background-color: green;
     }
-    .contact-section-header {
-      font-size: 3em;
-      text-align: center;
-    }
-    @media (max-width: 480px) {
-      body { background-color: green;}
-    }
+}
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+body {
+    font-family: 'Source Code Pro', monospace;
+}
