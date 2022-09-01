@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 #navbar {
     position: fixed;
     width: 100%;
@@ -10,7 +11,7 @@
     font-family: 'Tangerine', sans-serif;
     font-size: 40px;
     color: white;
-    
+
 }
 
 li {
@@ -92,7 +93,9 @@ html {
         background-color: green;
     }
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 body {
     font-family: 'Source Code Pro', monospace;
 }
